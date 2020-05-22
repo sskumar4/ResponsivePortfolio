@@ -1,0 +1,43 @@
+.navbar {
+    height: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar div {
+    height: 65px;
+    width: 250px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-section {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/*@media only screen and (max-width: 576px) {
+    .nav ul {
+        display: inline-block;
+    }
+}*/
+
+footer {
+    height: 50px;
+}
+
+.solid {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
