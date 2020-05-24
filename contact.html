@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>Contact</title>
+    <title>About Me</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!--<link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -20,55 +20,76 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Sudha Kumar</a>
-            <nav>
-                <a href="index.html">About
-            </a>
-                <a href="portfolio.html">Portfolio
-            </a>
-                <a href="contact.html">Contact
-            </a>
-            </nav>
-        </div>
-    </header>
-    <div id="main-container" class="container">
-        <section class="main-container">
-            <h3>Contact</h3>
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label form="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+            <div class="sud"><a style="margin-left:20px; padding-top: 20px; margin-top: 30px; font-size: 35px" href="#">  Sudha Kumar  </a></div>
+            <!-- <a class="navbar-brand ml-5 bg-secondary" style="font-size: 40px" href="#">  Sudha Kumar  </a>-->
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav justify-content-end ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About
+                </a>
                     </li>
-                    <li>
-                        <label form="name">Email</label>
-                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio
+                </a>
                     </li>
-                    <li>
-                        <label form="message">Message</label>
-                        <textarea name="message" id="message" required="required"></textarea>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact
+                </a>
                     </li>
                 </ul>
-                <input type="submit" name="submit">
-            </form>
-        </section>
-        <aside>
-            <div id="connect">
-                <h3>Connect with Me</h3>
-                <img src="assets/images/github.png" class="social" alt="GitHub">
-                <img src="assets/images/linkedin.png" class="social" alt="LinkedIn">
-                <img src="assets/images/stack.png" class="social" alt="StackOverflow">
-            </div>
-        </aside>
-    </div>
-    <footer>
-        <div class="container">
-            &copy; Copyright 2020 Sudha Kumar
+        </nav>
+
+
+    </header>
+    <!--   <div class="row">
+        <div class="col-md-8"> -->
+    <div class="container-md">
+        <div class="row">
+            <section class="col-md-8 m-5 pb-5 bg-secondary text-white">
+                <div row class="p-3">
+                    <h3 class="i class=" font>Contact</h3>
+                    <hr class="solid" />
+                </div>
+                <div row class="px-3 mr-3">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="pwd">Name</label>
+                            <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Message</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </section>
+
         </div>
-    </footer>
+        <div class="class=" panel panel-primary " style="width: 15% "">
+            <div class="panel-body">Hello World</div>
+        </div>
+        <footer class="fixed-bottom text-center bg-dark text-white">
 
+            <p class="mt-3"> &copy; Copyright 2020 Sudha Kumar</p>
 
+        </footer>
+
+    </div>
 </body>
 
 </html>
