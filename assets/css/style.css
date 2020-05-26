@@ -1,69 +1,74 @@
-* {
-    box-sizing: border-box;
-}
-
-h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.navbar {
-    height: 80px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 00px;
-}
-
-.navbar div {
-    height: 65px;
-    width: 250px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.navbar-brand {
-    font-size: 40px !important;
-    margin-left: 55px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: teal;
-}
-
-.nav-link {
-    color: white !important;
-}
-
-.bg-secondary {
-    background-color: teal!important;
-}
-
-.nav-section {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.sud {
-    width: 500px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 15px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    background-color: teal;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-footer {
-    height: 55px;
-}
-
-.solid {
-    display: block;
-    border: 0;
-    border-top: 1px solid rgb(247, 245, 245);
-    margin: 1em 0;
-    padding: 0;
-}
+    * {
+        box-sizing: border-box;
+    }
+    
+    h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .navbar {
+        height: 120px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 00px;
+    }
+    
+    .navbar div {
+        height: 65px;
+        width: 250px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .navbar-brand {
+        font-size: 40px !important;
+        margin-left: 55px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: teal;
+    }
+    
+    .nav-link {
+        color: white !important;
+    }
+    
+    .bg-secondary {
+        background-color: teal!important;
+    }
+    
+    .nav-section {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .sud {
+        width: 500px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: teal;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    footer {
+        height: 60px;
+        width: 100%;
+        margin-bottom: 0px;
+        background-image: url("../images/footer1.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .solid {
+        display: block;
+        border: 0;
+        border-top: 1px solid rgb(247, 245, 245);
+        margin: 1em 0;
+        padding: 0;
+    }
