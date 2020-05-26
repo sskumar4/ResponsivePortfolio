@@ -1,5 +1,5 @@
 
-[![picture 2](images/portfolio-thumb.jpg)](https://sskumar4.github.io/ResponsivePortfolio/)  
+[![picture 2](assets/images/portfolio-thumb.jpg)](https://sskumar4.github.io/ResponsivePortfolio/)  
 
 # Links to deployed application and repository:
 * [Deployed Application](https://sskumar4.github.io/ResponsivePortfolio/)
