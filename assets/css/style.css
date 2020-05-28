@@ -15,11 +15,11 @@
     }
     
     .navbar div {
-        height: 120px;
+        height: 65px;
         width: 250px;
         margin-top: 0;
         margin-bottom: 0;
-        padding-top: 28px;
+        padding-top: 0px;
         padding-bottom: 0;
     }
     
@@ -60,9 +60,9 @@
         height: 60px;
         width: 100%;
         margin-bottom: 0px;
-        background-image: url("../images/footer1.jpg");
-        background-size: cover;
-        background-position: center;
+        border-top-color: teal;
+        border-top-width: 100px;
+        border-top: teal;
     }
     
     .solid {
