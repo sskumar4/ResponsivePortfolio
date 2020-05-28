@@ -32,3 +32,6 @@ Used HTML validation service to ensure that each page has valid HTML.
 
 Launch [Deployed Application](https://sskumar4.github.io/ResponsivePortfolio/) to view the About page. Click on links to the right of the navigation bar to navigate to the respective pages. The portfolio page contains links the completed portfolios and under construction pages. The contact page contains a form to send message to the site owner.
 
+Note: To make the logo the same height as the navbar, 
+increased padding-top and height for navbar div, and increased the height of nav bar, but that did not work. When the navbar height was increased, the nav links was not displayed at smaller device sizes.
+
